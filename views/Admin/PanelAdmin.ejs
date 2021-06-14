@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="/css/Admin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - MultCell</title>
+    <title>Admin - PhoneStar</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         data-sidebar-type="overlayed-sm-and-down">
         <div class="sticky-alerts"></div>
         <nav class="navbar" style="background-color: rgb(35,35,35);">
-            <h1 class="With">Mult <span class="Red">Cell</span></h1>
+            <h1 class="With">Phone <span class="Red">Star</span></h1>
 
             <div class="Exit">
                 <h1 class="Exit-Title">Sair</h1>
@@ -57,26 +57,26 @@
                         <th scope="col">Body</th>
                     </tr>
                 </thead>
-                <% MultCell.forEach(function(MultCell){ %>
+                <% PhoneStar.forEach(function(PhoneStar){ %>
                     <tbody>
                         <tr>
                             <th style="font-size: 15px;" scope="row">
-                                <%= MultCell.id %>
+                                <%= PhoneStar.id %>
                             </th>
                             <td>
-                                <%= MultCell.name %>
+                                <%= PhoneStar.name %>
                             </td>
                             <td>
-                                <%= MultCell.LastName %>
+                                <%= PhoneStar.LastName %>
                             </td>
                             <td>
-                                <%= MultCell.Email %>
+                                <%= PhoneStar.Email %>
                             </td>
                             <td>
-                                <%= MultCell.Title %>
+                                <%= PhoneStar.Title %>
                             </td>
                             <td>
-                                <%= MultCell.Body %>
+                                <%= PhoneStar.Body %>
                             </td>
                         </tr>
                     </tbody>

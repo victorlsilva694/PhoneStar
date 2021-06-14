@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const MultCellModel = require('../Model/MultCell_Model');
+const PhoneStar = require('../Model/PhoneStar_Model');
 const AdminUsersModel = require('../Model/Admin_Models');
 const EmailUserModel = require('../Model/EmailUser_Model');
 const bodyParser = require('body-parser');
@@ -10,9 +10,9 @@ const passport = require('passport');
 
 router.get('/Admin', (req, res, next) => {
 
-    MultCellModel.find().then((MultCell) => {
+    PhoneStar.find().then((PhoneStar) => {
 
-        res.render('Admin/PanelAdmin', { MultCell: MultCell });
+        res.render('Admin/PanelAdmin', { PhoneStar: PhoneStar });
 
     });
 
@@ -105,7 +105,7 @@ router.post('/ScheduleConsult/new', (req, res, next) => {
 
     const { name, LastName, Email, Title, Body } = req.body;
 
-    MultCellModel.create({
+    PhoneStar.create({
         name: name,
         LastName: LastName,
         Email: Email,

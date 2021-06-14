@@ -1,7 +1,7 @@
 const express = require('express');
 const routers = express.Router();
 const bcrypt = require('bcrypt');
-const MultCellModel = require('../Model/MultCell_Model');
+const PhoneStar = require('../Model/PhoneStar_Model');
 const AdminUsersModel = require('../Model/Admin_Models');
 const EmailUserModel = require('../Model/EmailUser_Model');
 const bodyParser = require('body-parser');
@@ -78,7 +78,7 @@ routers.post('/ScheduleConsult/new', (req, res, next) => {
 
     const { name, LastName, Email, Title, Body } = req.body;
 
-    MultCellModel.create({
+    PhoneStar.create({
         name: name,
         LastName: LastName,
         Email: Email,

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const connection = require('../Schema/connection');
 
 
-const MulttCell = new mongoose.Schema({
+const PhoneStar = new mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -29,6 +29,6 @@ const MulttCell = new mongoose.Schema({
     }
 });
 
-const MultCellModel = mongoose.model('MulttCell', MulttCell)
+const PhoneStarModel = mongoose.model('PhoneStar', PhoneStar)
 
-module.exports = MultCellModel;
+module.exports = PhoneStarModel;

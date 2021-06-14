@@ -11,7 +11,7 @@ const session = require('express-session');
 require('./config/auth')(passport)
 
 app.use(session({
-    secret: 'MultCellAdminEntry',
+    secret: 'PhoneStarAminEntry',
     resave: false,
     saveUninitialized: false,
     cookie: {maxAge: 2 * 60 * 1000}
