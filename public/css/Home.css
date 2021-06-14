@@ -1,0 +1,1868 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#BrandLogo{
+    letter-spacing: 2px;
+    font-family: 'Monda';
+    font-size: 37px;
+}
+.Container-Main-T{
+    position: relative;
+    top: -6vh;
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(54, 54, 54);
+}
+.Title-Container-Main{
+    position: relative;
+    top: 8vh;
+    z-index: 9999;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 28px;
+}
+.Title-Presentation-Reponse{
+    position: relative;
+    top: 12vh;
+    z-index: 9999;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.NoteBooks{
+    position: relative;
+    top: -5vh;
+    height: 70vh;
+    width: 100%;
+}
+.NoteBook-Title-T{
+    position: relative;
+    width: 40%;
+    top: 5vh;
+    left: 2%;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.NoteBooks-Container-t{
+    width: 40%;
+    left: 2%;
+    position: relative;
+    text-align: center;
+    top: 11vh;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+.More-Info{
+    font-family: 'Poppins';
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: 13%;
+    top: 19vh;
+    border-radius: 10px;
+    width: 18%;
+    background-color: transparent;
+    height: 10vh;
+    border: 2px solid rgb(194, 37, 37);
+    
+}
+.More-Info:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.7s;
+    background-color: rgb(146, 35, 35);
+}
+.Images-NoteBooks{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 0vh;
+    height: 70vh;
+}
+.Line-1{
+    display: inline-flex;
+    position: relative;
+    width: 95%;
+    height: 35vh;
+}
+.Image-1{
+    width: 45%;
+    height: 35vh;
+}
+.Image-2{
+    position: relative;
+    left: 10%;
+    width: 45%;
+    height: 35vh;
+}
+.Line-2{
+    display: inline-flex;
+    position: relative;
+    width: 95%;
+    height: 35vh;
+}
+.Image-3{
+    width: 45%;
+    height: 35vh;
+}
+.Image-4{
+    position: relative;
+    left: 10%;
+    width: 45%;
+    height: 35vh;
+}
+.Img1{
+    border-radius: 10px;
+    position: relative;
+    top: 2.5vh;
+    width: 100%;
+    height: 30vh;
+}
+.Phone{
+    display: inline-flex;
+    position: relative;
+    width: 50%;
+    top: 0vh;
+    left: 2.5%;
+    height: 70vh;
+}
+.Phone-Text{
+    height: 70vh;
+    position: relative;
+    width: 50%;
+}
+.Main-Container-Phone{
+    display: inline-flex;
+}
+.Phones-Title{
+    position: relative;
+    width: 97%;
+    top: 5vh;
+    left: 2%;
+    font-size: 29px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.Phones-Container{
+    width: 95%;
+    left: 2%;
+    position: relative;
+    text-align: center;
+    top: 11vh;
+    font-size: 21px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+#Button-MoreInfo2{
+    font-family: 'Poppins';
+    color: black;
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+    top: 19vh;
+    border-radius: 10px;
+    width: 50%;
+    background-color: transparent;
+    height: 10vh;
+    border: 2px solid rgb(194, 37, 37);
+}
+#Button-MoreInfo2:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.7s;
+    background-color: rgb(146, 35, 35);
+}
+.Main-Container-Information{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+.Mail{
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    left: 2.5%;
+    height: 60vh;
+    top: 5vh;
+    width: 45%;
+}
+.Budget{
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    left: 7.5%;
+    height: 60vh;
+    top: 5vh;
+    width: 45%;
+}
+.Image-World{
+    left: 5%;
+    top: 5vh;
+    position: absolute;
+    width: 7%;
+    height: 9vh;
+}
+.World{
+    width: 100%;
+}
+.Mail-Title{
+    text-align: center;
+    position: relative;
+    top: .5vh;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+.Mail-body{
+    width: 95%;
+    left: 2.5%;
+    position: relative;
+    text-align: left;
+    top: 8vh;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+#Mail-User-T{
+    left: 15%;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 15vh;
+    width: 70%;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    height: 6vh;
+    border: none;
+}
+.Mail-Submmit{
+    font-size: 18px;
+    font-family: 'Poppins';
+    position: relative;
+    top: 15vh;
+    width: 15%;
+    left: -1.5%;
+    height: 5.5vh;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(226, 224, 224);
+}
+.Mail-Submmit:hover{
+    background-color: rgb(167, 167, 167);
+    transition: 0.5s;
+}
+.Budget-Submmit{
+    font-size: 18px;
+    font-family: 'Poppins';
+    position: relative;
+    top: 18vh;
+    width: 70%;
+    left: 15%;
+    height: 7vh;
+    border-radius: 8px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(226, 224, 224);
+}
+.Budget-Submmit:hover{
+    background-color: rgb(167, 167, 167);
+    transition: 0.5s;
+}
+.Budget-Title{
+    text-align: center;
+    position: relative;
+    top: .5vh;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+.Budget-body{
+    width: 95%;
+    left: 4%;
+    position: relative;
+    text-align: left;
+    top:8vh;
+    font-size: 19px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+.Footer{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 5vh;
+    height: 20vh;
+}
+.Footer-Title{
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-align: center;
+}
+.Footer-Body{
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 19px;
+    top: 2vh;
+    text-align: center;
+}
+@media only screen and (max-width: 1024px) {
+    #BrandLogo{
+        letter-spacing: 2px;
+        font-family: 'Monda';
+        font-size: 35px;
+    }
+    .Container-Main-T{
+        position: relative;
+        top: -3.2vh;
+        font-size: 35px;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(54, 54, 54);
+    }
+    .Title-Container-Main{
+        position: relative;
+        top: 8vh;
+        z-index: 9999;
+        font-family: 'Roboto';
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 41px;
+    }
+    .Title-Presentation-Reponse{
+        position: relative;
+        top: 12vh;
+        z-index: 9999;
+        font-family: 'Poppins';
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 46px;
+    }
+    .NoteBooks{
+        position: relative;
+        top: -3vh;
+        height: 70vh;
+        width: 100%;
+    }
+    .NoteBook-Title-T{
+        position: relative;
+        width: 90%;
+        left: 2%;
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .NoteBooks-Container-t{
+        width: 95%;
+        position: relative;
+        text-align: center;
+        top: 5vh;
+        font-size: 32px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .More-Info{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        position: relative;
+        left: 13%;
+        top: 12vh;
+        border-radius: 10px;
+        width: 75%;
+        background-color: rgb(146, 35, 35);;
+        height: 10vh;
+        border: 2px solid rgb(194, 37, 37);
+    }
+    .Images-NoteBooks{
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 10vh;
+        height: 70vh;
+    }
+    .Line-1{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 9vh;
+        height: 35vh;
+    }
+    .Image-1{
+        width: 45%;
+        height: 30vh;
+    }
+    .Image-2{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 30vh;
+    }
+    .Line-2{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        height: 35vh;
+    }
+    .Image-3{
+        width: 45%;
+        height: 35vh;
+    }
+    .Image-4{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 35vh;
+    }
+    .Img1{
+        border-radius: 10px;
+        position: relative;
+        top: 2.5vh;
+        width: 100%;
+        height: 22vh;
+    }
+    .Main-Container-Phone{
+        position: relative;
+        top: 15vh;
+        display: block;
+    }
+    .Phones-Title{
+        position: relative;
+        width: 97%;
+        top: 5vh;
+        left: 2%;
+        font-size: 42px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .Phones-Container{
+        width: 95%;
+        left: 2%;
+        position: relative;
+        text-align: center;
+        top: 11vh;
+        font-size: 30px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Button-MoreInfo2{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        position: relative;
+        left: 25%;
+        top: 19vh;
+        border-radius: 10px;
+        width: 50%;
+        background-color: rgb(146, 35, 35);
+        height: 10vh;
+        border: 2px solid rgb(194, 37, 37);
+    }
+    #Button-MoreInfo2:hover{
+        font-weight: bold;
+        color: white;
+        transition: 0.7s;
+        background-color: rgb(146, 35, 35);
+    }
+    .Phone{
+        display: inline-flex;
+        position: absolute;
+        width: 95%;
+        top: 60vh;
+        left: 2.5%;
+        height: 70vh;
+    }
+    .Phone-Text{
+        height: 70vh;
+        position: relative;
+        top: 16vh;
+        width: 100%;
+    }
+    .Mail{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 60vh;
+        top: 5vh;
+        width: 95%;
+    }
+    .Image-World{
+        left: 9%;
+        top: 5vh;
+        position: absolute;
+        width: 12%;
+        height: 9vh;
+    }
+    .World{
+        width: 100%;
+    }
+    .Mail-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        font-size: 32px;
+        font-family: 'Poppins';
+    }
+    .Mail-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 11vh;
+        font-size: 32px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Mail-User-T{
+        left: 15%;
+        background-color: white;
+        border-radius: 15px;
+        position: relative;
+        top: 15vh;
+        width: 70%;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        height: 8vh;
+        border: none;
+    }
+    .Main-Container-Information{
+        display: block;
+        top: 70vh;
+        position: relative;
+        width: 100%;
+        height: 70vh;
+    }
+    .Budget-Submmit{
+        font-size: 28px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 22vh;
+        width: 70%;
+        left: 15%;
+        height: 8vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Budget-Submmit:hover{
+        background-color: rgb(167, 167, 167);
+        transition: 0.5s;
+    }
+    .Budget{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 60vh;
+        top: 5vh;
+        width: 95%;
+    }
+    .World{
+        width: 100%;
+    }
+    .Budget-Title{
+        text-align: center;
+        position: relative;
+        top: 8vh;
+        font-size: 35px;
+        font-family: 'Poppins';
+    }
+    .Budget-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 15vh;
+        font-size: 31px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .Footer{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 135vh;
+        height: 20vh;
+    }
+    .Footer-Title{
+        font-family: 'Roboto';
+        font-size: 29px;
+        text-align: center;
+    }
+    .Footer-Body{
+        position: relative;
+        font-family: 'Roboto';
+        font-size: 25px;
+        top: 2vh;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 400px) {
+        #BrandLogo{
+        letter-spacing: 2px;
+        font-family: 'Monda';
+        font-size: 35px;
+    }
+    .Container-Main-T{
+        position: relative;
+        top: -6vh;
+        font-size: 29px;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(54, 54, 54);
+    }
+    .Title-Container-Main{
+        position: relative;
+        top: 8vh;
+        z-index: 9999;
+        font-family: 'Roboto';
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 25px;
+    }
+    .Title-Presentation-Reponse{
+        position: relative;
+        top: 10vh;
+        z-index: 9999;
+        font-family: 'Poppins';
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+    }
+    .NoteBooks{
+        position: relative;
+        top: -3vh;
+        height: 70vh;
+        width: 100%;
+    }
+    .NoteBook-Title-T{
+        position: relative;
+        width: 90%;
+        left: 2%;
+        font-size: 28px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .NoteBooks-Container-t{
+        width: 95%;
+        position: relative;
+        text-align: center;
+        top: 5vh;
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .More-Info{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        position: relative;
+        left: 13%;
+        top: 12vh;
+        border-radius: 10px;
+        width: 75%;
+        background-color: rgb(146, 35, 35);;
+        height: 10vh;
+    }
+    .Images-NoteBooks{
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 10vh;
+        height: 70vh;
+    }
+    .Line-1{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 9vh;
+        height: 35vh;
+    }
+    .Image-1{
+        width: 45%;
+        height: 20vh;
+    }
+    .Image-2{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 30vh;
+    }
+    .Line-2{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        height: 35vh;
+    }
+    .Image-3{
+        width: 45%;
+        height: 35vh;
+    }
+    .Image-4{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 35vh;
+    }
+    .Img1{
+        border-radius: 10px;
+        position: relative;
+        top: 2.5vh;
+        width: 100%;
+        height: 16vh;
+    }
+    .Main-Container-Phone{
+        position: relative;
+        top: 15vh;
+        display: block;
+    }
+    .Phones-Title{
+        position: relative;
+        width: 97%;
+        top: 5vh;
+        left: 2%;
+        font-size: 27px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .Phones-Container{
+        width: 95%;
+        left: 2%;
+        position: relative;
+        text-align: center;
+        top: 5vh;
+        font-size: 20px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Button-MoreInfo2{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        position: relative;
+        left: 25%;
+        top: 10vh;
+        border-radius: 10px;
+        width: 50%;
+        background-color: rgb(146, 35, 35);
+        height: 8vh;
+    }
+    #Button-MoreInfo2:hover{
+        font-weight: bold;
+        color: white;
+        transition: 0.7s;
+        background-color: rgb(146, 35, 35);
+    }
+    .Phone{
+        display: inline-flex;
+        position: absolute;
+        width: 95%;
+        top: 68vh;
+        left: 2.5%;
+        height: 70vh;
+    }
+    .Phone-Text{
+        height: 70vh;
+        position: relative;
+        top: 16vh;
+        width: 100%;
+    }
+    .Mail{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 3vh;
+        width: 95%;
+    }
+    .Mail-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 7vh;
+        width: 30%;
+        left: 60%;
+        height: 6.2vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Image-World{
+        left: 9%;
+        top: 5vh;
+        position: absolute;
+        width: 12%;
+        height: 9vh;
+    }
+    .World{
+        width: 100%;
+    }
+    .Mail-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        left: 5%;
+        width: 95%;
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    .Mail-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 11vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Mail-User-T{
+        left: 5%;
+        background-color: white;
+        border-radius: 13px;
+        position: relative;
+        top: 15vh;
+        width: 90%;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        height: 8vh;
+        border: none;
+    }
+    .Main-Container-Information{
+        display: block;
+        top: 70vh;
+        position: relative;
+        width: 100%;
+        height: 70vh;
+    }
+    .Budget-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 22vh;
+        width: 70%;
+        left: 15%;
+        height: 8vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Budget-Submmit:hover{
+        background-color: rgb(167, 167, 167);
+        transition: 0.5s;
+    }
+    .Budget{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 5vh;
+        width: 95%;
+    }
+    .World{
+        width: 100%;
+    }
+    .Budget-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+    }
+    .Budget-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 15vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .Footer{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 120vh;
+        height: 20vh;
+    }
+    .Footer-Title{
+        position: relative;
+        top: 2vh;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+    }
+    .Footer-Body{
+        position: relative;
+        font-family: 'Roboto';
+        font-size: 14px;
+        top: 2vh;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #BrandLogo{
+        letter-spacing: 2px;
+        font-family: 'Monda';
+        font-size: 35px;
+    }
+    .Container-Main-T{
+        position: relative;
+        top: -6.5vh;
+        font-size: 29px;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(54, 54, 54);
+    }
+    .Title-Container-Main{
+        position: relative;
+        top: 8vh;
+        z-index: 9999;
+        font-family: 'Roboto';
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Title-Presentation-Reponse{
+        position: relative;
+        top: 10vh;
+        z-index: 9999;
+        font-family: 'Poppins';
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+    }
+    .NoteBooks{
+        position: relative;
+        top: -3vh;
+        height: 70vh;
+        width: 100%;
+    }
+    .NoteBook-Title-T{
+        position: relative;
+        width: 90%;
+        left: 2%;
+        top: -1vh;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .NoteBooks-Container-t{
+        width: 95%;
+        position: relative;
+        text-align: center;
+        top: 2vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .More-Info{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        position: relative;
+        left: 13%;
+        top: 10vh;
+        border-radius: 10px;
+        width: 75%;
+        background-color: rgb(146, 35, 35);;
+        height: 10vh;
+    }
+    .Images-NoteBooks{
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 10vh;
+        height: 70vh;
+    }
+    .Line-1{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 9vh;
+        height: 35vh;
+    }
+    .Image-1{
+        width: 45%;
+        height: 20vh;
+    }
+    .Image-2{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 30vh;
+    }
+    .Line-2{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        height: 35vh;
+    }
+    .Image-3{
+        width: 45%;
+        height: 35vh;
+    }
+    .Image-4{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 35vh;
+    }
+    .Img1{
+        border-radius: 10px;
+        position: relative;
+        top: 2.5vh;
+        width: 100%;
+        height: 16vh;
+    }
+    .Main-Container-Phone{
+        position: relative;
+        top: 15vh;
+        display: block;
+    }
+    .Phones-Title{
+        position: relative;
+        width: 97%;
+        top: 5vh;
+        left: 2%;
+        font-size: 22px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .Phones-Container{
+        width: 95%;
+        left: 2%;
+        position: relative;
+        text-align: center;
+        top: 5vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Button-MoreInfo2{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        position: relative;
+        left: 25%;
+        top: 10vh;
+        border-radius: 10px;
+        width: 50%;
+        background-color: rgb(146, 35, 35);
+        height: 8vh;
+    }
+    #Button-MoreInfo2:hover{
+        font-weight: bold;
+        color: white;
+        transition: 0.7s;
+        background-color: rgb(146, 35, 35);
+    }
+    .Phone{
+        display: inline-flex;
+        position: absolute;
+        width: 95%;
+        top: 68vh;
+        left: 2.5%;
+        height: 70vh;
+    }
+    .Phone-Text{
+        height: 70vh;
+        position: relative;
+        top: 16vh;
+        width: 100%;
+    }
+    .Mail{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 3vh;
+        width: 95%;
+    }
+    .Mail-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 7vh;
+        width: 30%;
+        left: 60%;
+        height: 6.2vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Image-World{
+        left: 5%;
+        top: 5vh;
+        position: absolute;
+        width: 12%;
+        height: 9vh;
+    }
+    .World{
+        width: 100%;
+    }
+    .Mail-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        left: 5%;
+        width: 95%;
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    .Mail-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 11vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Mail-User-T{
+        left: 5%;
+        background-color: white;
+        border-radius: 13px;
+        position: relative;
+        top: 15vh;
+        width: 90%;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        height: 8vh;
+        border: none;
+    }
+    .Main-Container-Information{
+        display: block;
+        top: 70vh;
+        position: relative;
+        width: 100%;
+        height: 70vh;
+    }
+    .Budget-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 15vh;
+        width: 70%;
+        left: 15%;
+        height: 8vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Budget-Submmit:hover{
+        background-color: rgb(167, 167, 167);
+        transition: 0.5s;
+    }
+    .Budget{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 5vh;
+        width: 95%;
+    }
+    .World{
+        width: 100%;
+    }
+    .Budget-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+    }
+    .Budget-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 10vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .Footer{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 120vh;
+        height: 20vh;
+    }
+    .Footer-Title{
+        position: relative;
+        top: 2vh;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+    }
+    .Footer-Body{
+        position: relative;
+        font-family: 'Roboto';
+        font-size: 14px;
+        top: 2vh;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 414px) {
+    #BrandLogo{
+        letter-spacing: 2px;
+        font-family: 'Monda';
+        font-size: 35px;
+    }
+    .Container-Main-T{
+        position: relative;
+        top: -6.5vh;
+        font-size: 29px;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(54, 54, 54);
+    }
+    .Title-Container-Main{
+        position: relative;
+        top: 8vh;
+        z-index: 9999;
+        font-family: 'Roboto';
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Title-Presentation-Reponse{
+        position: relative;
+        top: 10vh;
+        z-index: 9999;
+        font-family: 'Poppins';
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+    }
+    .NoteBooks{
+        position: relative;
+        top: -3vh;
+        height: 70vh;
+        width: 100%;
+    }
+    .NoteBook-Title-T{
+        position: relative;
+        width: 90%;
+        left: 2%;
+        top: -1vh;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .NoteBooks-Container-t{
+        width: 95%;
+        position: relative;
+        text-align: center;
+        top: 2vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .More-Info{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        position: relative;
+        left: 13%;
+        top: 10vh;
+        border-radius: 10px;
+        width: 75%;
+        background-color: rgb(146, 35, 35);;
+        height: 10vh;
+    }
+    .Images-NoteBooks{
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 10vh;
+        height: 70vh;
+    }
+    .Line-1{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 9vh;
+        height: 35vh;
+    }
+    .Image-1{
+        width: 45%;
+        height: 20vh;
+    }
+    .Image-2{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 30vh;
+    }
+    .Line-2{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        height: 35vh;
+    }
+    .Image-3{
+        width: 45%;
+        height: 35vh;
+    }
+    .Image-4{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 35vh;
+    }
+    .Img1{
+        border-radius: 10px;
+        position: relative;
+        top: 2.5vh;
+        width: 100%;
+        height: 16vh;
+    }
+    .Main-Container-Phone{
+        position: relative;
+        top: 15vh;
+        display: block;
+    }
+    .Phones-Title{
+        position: relative;
+        width: 97%;
+        top: 5vh;
+        left: 2%;
+        font-size: 22px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .Phones-Container{
+        width: 95%;
+        left: 2%;
+        position: relative;
+        text-align: center;
+        top: 5vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Button-MoreInfo2{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        position: relative;
+        left: 25%;
+        top: 10vh;
+        border-radius: 10px;
+        width: 50%;
+        background-color: rgb(146, 35, 35);
+        height: 8vh;
+    }
+    #Button-MoreInfo2:hover{
+        font-weight: bold;
+        color: white;
+        transition: 0.7s;
+        background-color: rgb(146, 35, 35);
+    }
+    .Phone{
+        display: inline-flex;
+        position: absolute;
+        width: 95%;
+        top: 68vh;
+        left: 2.5%;
+        height: 70vh;
+    }
+    .Phone-Text{
+        height: 70vh;
+        position: relative;
+        top: 16vh;
+        width: 100%;
+    }
+    .Mail{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 3vh;
+        width: 95%;
+    }
+    .Mail-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 7vh;
+        width: 30%;
+        left: 60%;
+        height: 6.2vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Image-World{
+        left: 5%;
+        top: 5vh;
+        position: absolute;
+        width: 12%;
+        height: 9vh;
+    }
+    .World{
+        width: 100%;
+    }
+    .Mail-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        left: 5%;
+        width: 95%;
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    .Mail-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 11vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Mail-User-T{
+        left: 5%;
+        background-color: white;
+        border-radius: 13px;
+        position: relative;
+        top: 15vh;
+        width: 90%;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        height: 8vh;
+        border: none;
+    }
+    .Main-Container-Information{
+        display: block;
+        top: 70vh;
+        position: relative;
+        width: 100%;
+        height: 70vh;
+    }
+    .Budget-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 15vh;
+        width: 70%;
+        left: 15%;
+        height: 8vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Budget-Submmit:hover{
+        background-color: rgb(167, 167, 167);
+        transition: 0.5s;
+    }
+    .Budget{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 5vh;
+        width: 95%;
+    }
+    .World{
+        width: 100%;
+    }
+    .Budget-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+    }
+    .Budget-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 10vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .Footer{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 120vh;
+        height: 20vh;
+    }
+    .Footer-Title{
+        position: relative;
+        top: 2vh;
+        font-family: 'Roboto';
+        font-size: 20px;
+        text-align: center;
+    }
+    .Footer-Body{
+        position: relative;
+        font-family: 'Roboto';
+        font-size: 14px;
+        top: 2vh;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #BrandLogo{
+        letter-spacing: 2px;
+        font-family: 'Monda';
+        font-size: 35px;
+    }
+    .Container-Main-T{
+        position: relative;
+        top: -7.5vh;
+        font-size: 29px;
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(54, 54, 54);
+    }
+    .Title-Container-Main{
+        position: relative;
+        top: 8vh;
+        z-index: 9999;
+        font-family: 'Roboto';
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        font-size: 19px;
+    }
+    .Title-Presentation-Reponse{
+        position: relative;
+        top: 10vh;
+        z-index: 9999;
+        font-family: 'Poppins';
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+    }
+    .NoteBooks{
+        position: relative;
+        top: -12vh;
+        height: 70vh;
+        width: 100%;
+    }
+    .NoteBook-Title-T{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 2vh;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .NoteBooks-Container-t{
+        width: 95%;
+        position: relative;
+        text-align: center;
+        top: 2vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .More-Info{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        position: relative;
+        left: 18.5%;
+        top: 10vh;
+        border-radius: 10px;
+        width: 65%;
+        background-color: rgb(146, 35, 35);;
+        height: 10vh;
+    }
+    .Images-NoteBooks{
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 10vh;
+        height: 70vh;
+    }
+    .Line-1{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        top: 9vh;
+        height: 35vh;
+    }
+    .Image-1{
+        width: 45%;
+        height: 20vh;
+    }
+    .Image-2{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 30vh;
+    }
+    .Line-2{
+        display: inline-flex;
+        position: relative;
+        width: 95%;
+        left: 2.5%;
+        height: 35vh;
+    }
+    .Image-3{
+        width: 45%;
+        height: 35vh;
+    }
+    .Image-4{
+        position: relative;
+        left: 10%;
+        width: 45%;
+        height: 35vh;
+    }
+    .Img1{
+        border-radius: 10px;
+        position: relative;
+        top: 2.5vh;
+        width: 100%;
+        height: 16vh;
+    }
+    .Main-Container-Phone{
+        position: relative;
+        top: 15vh;
+        display: block;
+    }
+    .Phones-Title{
+        position: relative;
+        width: 97%;
+        top: 2vh;
+        left: 2%;
+        font-size: 22px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+    .Phones-Container{
+        width: 95%;
+        left: 2%;
+        position: relative;
+        text-align: center;
+        top: 2vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Button-MoreInfo2{
+        font-family: 'Poppins';
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        position: relative;
+        left: 25%;
+        top: 5vh;
+        border-radius: 10px;
+        width: 50%;
+        background-color: rgb(146, 35, 35);
+        height: 8vh;
+    }
+    #Button-MoreInfo2:hover{
+        font-weight: bold;
+        color: white;
+        transition: 0.7s;
+        background-color: rgb(146, 35, 35);
+    }
+    .Phone{
+        display: inline-flex;
+        position: absolute;
+        width: 95%;
+        top: 68vh;
+        left: 2.5%;
+        height: 70vh;
+    }
+    .Phone-Text{
+        height: 70vh;
+        position: relative;
+        top: 16vh;
+        width: 100%;
+    }
+    .Mail{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 60vh;
+        top: 3vh;
+        width: 95%;
+    }
+    .Mail-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 6.5vh;
+        width: 25%;
+        left: 65%;
+        height: 6.2vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Image-World{
+        left: 3%;
+        top: 5vh;
+        position: absolute;
+        width: 12%;
+        height: 9vh;
+    }
+    .World{
+        width: 100%;
+    }
+    .Mail-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        left: 5%;
+        width: 95%;
+        font-size: 16px;
+        font-family: 'Poppins';
+    }
+    .Mail-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 9vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    #Mail-User-T{
+        left: 5%;
+        background-color: white;
+        border-radius: 13px;
+        position: relative;
+        top: 15vh;
+        width: 90%;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        height: 8vh;
+        border: none;
+    }
+    .Main-Container-Information{
+        display: block;
+        top: 70vh;
+        position: relative;
+        width: 100%;
+        height: 70vh;
+    }
+    .Budget-Submmit{
+        font-size: 14px;
+        font-family: 'Poppins';
+        position: relative;
+        top: 15vh;
+        width: 70%;
+        left: 15%;
+        height: 8vh;
+        border-radius: 8px;
+        border: 1px solid rgb(211, 211, 211);
+        background-color: rgb(226, 224, 224);
+    }
+    .Budget-Submmit:hover{
+        background-color: rgb(167, 167, 167);
+        transition: 0.5s;
+    }
+    .Budget{
+        border-radius: 20px;
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        left: 2.5%;
+        height: 55vh;
+        top: 5vh;
+        width: 95%;
+    }
+    .World{
+        width: 100%;
+    }
+    .Budget-Title{
+        text-align: center;
+        position: relative;
+        top: 7vh;
+        font-size: 17px;
+        font-family: 'Poppins';
+    }
+    .Budget-body{
+        width: 95%;
+        left: 4%;
+        position: relative;
+        text-align: left;
+        top: 10vh;
+        font-size: 14px;
+        font-family: 'Poppins';
+        font-weight: 200;
+    }
+    .Footer{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 130vh;
+        height: 20vh;
+    }
+    .Footer-Title{
+        position: relative;
+        top: 2vh;
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-align: center;
+    }
+    .Footer-Body{
+        position: relative;
+        font-family: 'Roboto';
+        font-size: 11px;
+        top: 2vh;
+        text-align: center;
+    }
+}

@@ -1,0 +1,603 @@
+@media only screen and (max-width: 1280px){
+    .Nav-Bar{
+        width: 100%;
+        height: 8vh;
+        background-color: rgb(44, 44, 44);
+    }
+    .Nav-Links{
+        border: 1px solid white;
+        display: inline-flex;
+        position: relative;
+        left: 55%;
+        width: 40%;
+        height: 5vh;
+    }
+    .NavBar-Links{
+        display: inline-flex;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+    }
+    .NavBar-Links{
+        width: 25%;
+        height: 8vh;
+    }
+    .Links{
+        display: inline-flex;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        font-style: none;
+    }
+    #Link{
+        position: relative;
+        top: 2.5vh;
+        left: 38%;
+    }
+    #Link2{
+        position: relative;
+        top: 2.5vh;
+        left: 12%;
+    }
+    #Link3{
+        position: relative;
+        top: 2.5vh;
+        left: 15%;
+    }
+    #Link4{
+        position: relative;
+        top: 2.5vh;
+        left: 22%;
+    }
+    #Link5{
+        position: relative;
+        top: 2.5vh;
+    }
+    .Logo{
+        position: absolute;
+        left: 5%;
+        width: 12%;
+        height: 8vh;
+        top: -2vh;
+    }
+    .Logo-P1{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 30px;
+        color: rgb(194, 37, 37);
+    }
+    .Logo-P2{
+        position: relative;
+        top: .2vh;
+        font-family: 'Monda';
+        font-size: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .Toggle-Menu{
+        display: none;
+    }
+    .Button-Toggle{
+        display: none;
+    }
+    .Img-Hamburguer{
+        display: none;
+    }
+
+    .Container-Main{
+        position: relative;
+        top: -6vh;
+    }
+    .Container-Presentation{
+        height: 40vh;
+        width: 100%;
+        background-color: rgb(35, 35, 35);
+    }
+    .Content-Presentation{
+        position: relative;
+        top: 5vh;
+        left: 10%;
+        width: 80%;
+        height: 30vh;
+    }
+    .Title-Presentation{
+        font-family: 'Poppins';
+        text-align: center;
+        position: relative;
+        top: 3vh;
+        font-size: 35px;
+        color: white;
+    }
+    .Title-Presentation-Reponse{
+        position: relative;
+        top: 5vh;
+        font-family: 'Poppins';
+        text-align: center;
+        font-weight: 700;
+        font-size: 37px;
+        color: white;
+    }
+    .Types-assistance{
+        width: 100%;
+        height: 210vh;
+    }
+    .Assistence-For-NoteBooks{
+        display: inline-flex;
+        width: 100%;
+        height: 70vh;
+    }
+        
+    .NoteBooks{
+        position: relative;
+        top: -8vh;
+        width: 55%;
+        height: 70vh;
+    }
+    .NoteBooks-Grid{
+        position: relative;
+        top: 6vh;
+        width: 45%;
+        height: 70vh;
+    }
+    .Line-1{
+        display: inline-flex;
+        width: 100%;
+        height: 30vh;
+    }
+    .Line-2{
+        display: inline-flex;
+        position: relative;
+        width: 100%;
+        height: 30vh;
+    }
+    .img-1{
+        overflow: hidden;
+        border-radius: 20px;
+        width: 44%;
+        height: 25vh;
+        position: relative;
+        top: 2.5vh;
+    }
+    .Image-1{
+        height: 25vh;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .img-3{
+        position: relative;
+        top: 2.5vh;
+        width: 44%;
+        height: 30vh;
+        border-radius: 20px;
+    }
+    .img-2{
+        border-radius: 20px;
+        width: 44%;
+        height: 25vh;
+        position: relative;
+        top: 2.5vh;
+        left: 5%;
+    }
+    .img-4{
+        position: relative;
+        top: 2.5vh;
+        left: 5%;
+        width: 44%;
+        height: 30vh;
+        border-radius: 20px;
+    }
+    .NoteBooks-Title{
+        font-family: 'Poppins';
+        position: relative;
+        top: 14vh;
+        font-size: 42px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+    }
+    .NoteBooks-Container{
+        font-family: 'Poppins';
+        position: relative;
+        top: 15vh;
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+    }
+    .MoreInfo{
+        position: relative;
+        border: none;
+        background-color: transparent;
+        border: 1px solid rgba(194, 37, 37, .9);
+        border-radius: 10px;
+        width: 40%;
+        height: 10vh;
+        left: 30%;
+        top: 16vh;
+    }
+    .MoreInfo:hover{
+        background-color: rgba(194, 37, 37, .9);
+        transition: 0.7s;
+        color: white;
+    }
+    .Consult{
+        position: relative;
+        width: 80%;
+        left: 10%;
+        height: 55vh;
+        top: 5vh;
+    }
+    .UserName{
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 16px;
+        border: 1px solid rgb(197, 197, 197);
+        width: 100%;
+        height: 6vh;
+        font-family: 'Poppins';
+    }
+    .Email{
+        position: relative;
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 16px;
+        border: 1px solid rgb(197, 197, 197);
+        width: 100%;
+        top: 3vh;
+        height: 6vh;
+        font-family: 'Poppins';
+    }
+    .DateConsult{
+        position: relative;
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 16px;
+        border: 1px solid rgb(197, 197, 197);
+        width: 100%;
+        top: 6vh;
+        color: rgb(105, 105, 105);
+        height: 6vh;
+        font-family: 'Poppins';
+    }
+    .Report{
+        position: relative;
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        font-size: 16px;
+        border: 1px solid rgb(197, 197, 197);
+        width: 100%;
+        top: 9vh;
+        color: rgb(105, 105, 105);
+        height: 19vh;
+        font-family: 'Poppins';
+    }
+    .Submmit-Form{
+        position: relative;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: transparent;
+        font-family: 'Poppins';
+        color: black;
+        height: 8vh;
+        top: 12vh;
+    }
+    .Submmit-Form:hover{
+        transition: 0.7s;
+        color: white;
+        background-color: rgba(10,10,10,.7);
+    }
+
+    .Assistence-For-Phones{
+        display: inline-flex;
+        height: 70vh;
+        width: 100%;
+        position: relative;
+    }
+    .Container-Images-Phones{
+        width: 45%;
+        height: 70vh;
+    }
+    .Line-1-Phone{
+        display: inline-flex;
+        width: 100%;
+        height: 35vh;
+    }
+    .Line-2-Phone{
+        display: inline-flex;
+        width: 100%;
+        height: 34.5vh;
+    }
+    .Phone-Img-1{
+        overflow: hidden;
+        border-radius: 20px;
+        width: 45%;
+        height: 30vh;
+        position: relative;
+        top: 2.5vh;
+        left: 3.5%;
+    }
+    .Phone-Img-2{
+        overflow: hidden;
+        border-radius: 20px;
+        width: 45%;
+        height: 30vh;
+        position: relative;
+        top: 2.5vh;
+        left: 6.5%;
+    }
+    .Phone-Img-3{
+        overflow: hidden;
+        border-radius: 20px;
+        width: 45%;
+        height: 30vh;
+        position: relative;
+        top: 2.5vh;
+        left: 3.5%;
+    }
+    .Phone-Img-4{
+        overflow: hidden;
+        border-radius: 20px;
+        width: 45%;
+        height: 30vh;
+        position: relative;
+        top: 2.5vh;
+        left: 6.5%;
+    }
+    .Phones{
+        position: relative;
+        width: 55%;
+        top: -11vh;        
+        height: 70vh;
+    }
+    .Phones-Title{
+        font-family: 'Poppins';
+        position: relative;
+        top: 10vh;
+        font-size: 42px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+    }
+    .Phones-Container{
+        font-family: 'Poppins';
+        position: relative;
+        top: 15vh;
+        font-size: 25px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+    }
+    .Email-For-Contact{
+        display: inline-flex;
+        width: 95%;
+    }
+    .Container-SaveMail{
+        position: relative;
+        top: 20vh;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(99, 99, 99);
+    }
+    .Contact{
+        position: relative;
+        left: 25%;
+        background-color: rgb(40, 40, 40);
+        width: 50%;
+        height: 28vh;
+        border-radius: 10px;
+        top: 10.5vh;
+    }
+    .MailContact{
+        font-family: 'Poppins';
+        position: relative;
+        top: 2vh;
+        font-size: 30px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .Mail-User{
+        position: relative;
+        width: 80%;
+        height: 8vh;
+        background-color: rgb(255, 255, 255);
+        left: 9%;
+        border: none;
+        font-size: 16px;
+        border: 1px solid rgb(199, 199, 199);
+        border-radius: 10px;
+        top: 2.5vh;
+    }
+    .Mail-Submmit{
+        position: absolute;
+        font-family: 'Poppins';
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        width: 14%;
+        border-radius: 8px;
+        top: 40.2vh;
+        left: 74%;
+        height: 6vh;
+        border: 1px solid rgb(190, 190, 190);
+        background-color: rgb(189, 189, 189);
+    }
+    .Mail-Submmit:hover{
+        background-color: rgb(68, 68, 68);
+        color: white;
+        transition: 0.5s;
+    }
+    .Mail{
+        position: relative;
+        top: 5vh;
+        width: 45%;
+        left: 5%;
+        height: 50vh;
+        border-radius: 10px;
+        background-color: rgb(219, 219, 219);
+    }
+    .Budget{
+        position: relative;
+        top: 5vh;
+        width: 40%;
+        left: 9.8%;
+        height: 50vh;
+        border-radius: 10px;
+        background-color: rgb(219, 219, 219);
+    }
+    .Mail-Title{
+        font-family: 'Open Sans';
+        font-size: 20px;
+        position: relative;
+        top: 2vh;
+        left: 15%;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+    }
+    .Image-World{
+        position: absolute;
+        top: 3vh;
+        left: 3%;
+        width: 30px;
+        height: 30px;
+    }
+    .World{
+        width: 30px;
+        height: 30px;
+    }
+    .Mail-body{
+        left: 6%;
+        width: 90%;
+        font-family: 'Poppins';
+        font-size: 17px;
+        position: relative;
+        top: 3vh;
+        text-align: left;
+        font-weight: 300;
+        color: black;
+    }
+    .imageBudget{
+        position: absolute;
+        top: 2.5vh;
+        left: 3%;
+        width: 40px;
+        height: 40px;
+    }
+    .Budget-image{
+        width: 40px;
+        height: 40px;
+    }
+    .Budget-Title{
+        font-family: 'Open Sans';
+        font-size: 20px;
+        position: relative;
+        top: 2vh;
+        left: 16%;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+    }
+    .Budget-body{
+        width: 90%;
+        font-family: 'Poppins';
+        font-size: 17px;
+        position: relative;
+        top: 3vh;
+        left: 7%;
+        font-weight: 300;
+        color: black;
+    }
+    .Budget-Button{
+        position: relative;
+        font-family: 'Poppins';
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        width: 80%;
+        border-radius: 8px;
+        left: 10%;
+        top: 8vh;
+        height: 8vh;
+        border: 1px solid rgb(109, 109, 109);
+        background-color: transparent;
+    }
+    .Budget-Button:hover{
+        background-color: rgb(68, 68, 68);
+        color: white;
+        transition: 0.5s;
+    }
+    .Footer{
+        width: 90%;
+        height: 1px;
+        left: 5%;
+        top: -2vh;
+        position: relative;
+        background-color: rgb(160, 160, 160);
+    }
+    .Footer-Title{
+        position: relative;
+        top: 5vh;
+        font-family: 'Poppins';
+        font-size: 30px;
+        text-align: center;
+        color: rgb(104, 104, 104);
+        font-weight: 300;
+    }
+    .Footer-Body{
+        position: relative;
+        top: 7vh;
+        font-family: 'Poppins';
+        font-size: 20px;
+        text-align: center;
+        color: rgb(124, 124, 124);
+        font-weight: 300;
+    }
+    .Finally{
+        position: relative;
+        width: 100%;
+        height: 15vh;
+    }
+    .Fixed-Congratulations{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 8vh;
+        top: 7.2vh;
+        background-color: green;
+        z-index: 99999;
+    }
+    .X-Close{
+        cursor: pointer;
+        position: relative;
+        left: 95%;
+        width: 50px;
+        height: 50px;
+        top: .8vh;
+    }
+    .Button-Close-X{
+        cursor: pointer;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        position: relative;
+        top: -2vh;
+        left: 25%;
+        color: white;
+    }
+    .Congratulations{
+        position: absolute;
+    }
+    .Sucess{
+        font-family: 'Roboto';
+        font-size: 20px;
+        color: white;
+        top: 1vh;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+        left: 20%;
+    }
+
+}

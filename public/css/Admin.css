@@ -1,0 +1,160 @@
+.With{
+    color: white;
+    font-family: 'Monda';
+    font-size: 32px;
+    position: relative;
+    top: .5vh;
+}
+.Red{
+    color: rgb(194, 37, 37);
+    font-family: 'Monda';
+    font-size: 32px;
+    position: relative;
+}
+.Exit{
+    cursor: pointer;
+    width: 20%;
+    position: relative;
+    left: 78%;
+    height: 100%;
+}
+.Exit-Title{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    position: relative;
+    left: 40%;
+    top: 1vh;
+    font-weight: 300;
+    font-size: 22px;
+    position: relative;
+}
+.Form-NewUser{
+    display: none;
+    position: relative;
+    left: 2.5%;
+    top: 5vh;
+    width: 95%;
+    height: 75vh;
+}
+.Add-NewUser-Title{
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 28px;
+}
+.FormAdd{
+    border-radius: 20px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 70vh;
+}
+.Delete-Collaborator-Table{
+    position: relative;
+    left: 2.5%;
+    top: 5vh;
+    width: 95%;
+    height: 75vh;
+}
+.Title-Edit{
+    position: relative;
+    top: 4vh;
+    width: 50%;
+    left: 25%;
+    height: 8vh;
+}
+.Title-Edit-Text{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 28px;
+}
+.Hamburguer-Toggle-Nav{
+    display: none;
+}
+@media only screen and (max-width: 360px) {
+    .With{
+        color: white;
+        font-family: 'Monda';
+        width: 50%;
+        font-size: 32px;
+        position: relative;
+        top: .5vh;
+    }
+    .Hamburguer-Toggle-Nav{
+        position: relative;
+        left: 10%;
+        display: block;
+        width: 20%;
+        height: 8vh;
+    }
+    .Hamburguer-Toggle-Image{
+        position: relative;
+        left: 25%;
+        top: 1.8vh;
+        width: 50%;
+    }
+    .Red{
+        color: rgb(194, 37, 37);
+        font-family: 'Monda';
+        font-size: 32px;
+        position: relative;
+    }
+    .Exit{
+        cursor: pointer;
+        width: 20%;
+        position: relative;
+        left: 78%;
+        height: 100%;
+    }
+    .Exit-Title{
+        color: rgb(255, 255, 255);
+        font-family: 'Roboto';
+        position: relative;
+        left: 40%;
+        top: 1vh;
+        font-weight: 300;
+        font-size: 22px;
+        position: relative;
+    }
+    .Form-NewUser{
+        display: none;
+        position: relative;
+        left: 2.5%;
+        top: 5vh;
+        width: 95%;
+        height: 75vh;
+    }
+    .Add-NewUser-Title{
+        font-family: 'Roboto';
+        text-align: center;
+        font-size: 28px;
+    }
+    .FormAdd{
+        border-radius: 20px;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        height: 70vh;
+    }
+    .Delete-Collaborator-Table{
+        position: relative;
+        left: 2.5%;
+        top: 5vh;
+        width: 95%;
+        height: 75vh;
+    }
+    .Title-Edit{
+        position: relative;
+        top: 4vh;
+        width: 50%;
+        left: 25%;
+        height: 8vh;
+    }
+    .Title-Edit-Text{
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 28px;
+    }
+    .Hamburguer{
+        display: none;
+    }
+}

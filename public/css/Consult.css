@@ -1,0 +1,232 @@
+.form-Consult{
+    width: 60%;
+    height: 80vh;
+    position: relative;
+    left: 20%;
+    top: 2vh;
+}
+.Title-Consult{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    height: 7vh;
+}
+.Title-ConsultPage{
+    font-family: 'Poppins';
+    font-size: 35px;
+}
+.Logo-P3{
+    position: relative;
+    font-family: 'Monda';
+    font-size: 30px;
+    top: 3.6vh;
+    color: rgb(194, 37, 37);
+}
+.Logo-P4{
+    position: relative;
+    font-family: 'Monda';
+    font-size: 30px;
+    color: rgb(221, 221, 221);
+}
+.Subbmit{
+    position: relative;
+    top: 42vh;
+    left: 70%;
+    width: 30%;
+    height: 7vh;
+}
+#Input-Consult-btn{
+    width: 100%;
+}
+@media only screen and (max-width: 360px) {
+    .form-Consult{
+        width: 60%;
+        height: 80vh;
+        position: relative;
+        left: 20%;
+        top: 2vh;
+    }
+    .Title-Consult{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        height: 7vh;
+    }
+    .Title-ConsultPage{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 15px;
+    }
+    .Logo-P3{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 25px;
+        top: 3.6vh;
+        color: rgb(194, 37, 37);
+    }
+    .Logo-P4{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .Subbmit{
+        position: relative;
+        top: 42vh;
+        left: 10%;
+        width: 80%;
+        height: 7vh;
+    }
+    #Input-Consult{
+        font-size: 9px;
+    }
+    #Input-Consult-btn{
+        width: 80%;
+        position: relative;
+        left: 6%;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .form-Consult{
+        width: 60%;
+        height: 80vh;
+        position: relative;
+        left: 20%;
+        top: 2vh;
+    }
+    .Title-Consult{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        height: 7vh;
+    }
+    .Title-ConsultPage{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 15px;
+    }
+    .Logo-P3{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 25px;
+        top: 3.6vh;
+        color: rgb(194, 37, 37);
+    }
+    .Logo-P4{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .Subbmit{
+        position: relative;
+        top: 42vh;
+        left: 10%;
+        width: 80%;
+        height: 7vh;
+    }
+    #Input-Consult{
+        font-size: 9px;
+    }
+    #Input-Consult-btn{
+        width: 80%;
+        position: relative;
+        left: 7%;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .form-Consult{
+        width: 60%;
+        height: 80vh;
+        position: relative;
+        left: 20%;
+        top: 2vh;
+    }
+    .Title-Consult{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        height: 7vh;
+    }
+    .Title-ConsultPage{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 15px;
+    }
+    .Logo-P3{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 25px;
+        top: 3.6vh;
+        color: rgb(194, 37, 37);
+    }
+    .Logo-P4{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .Subbmit{
+        position: relative;
+        top: 42vh;
+        left: 10%;
+        width: 80%;
+        height: 7vh;
+    }
+    #Input-Consult{
+        font-size: 9px;
+    }
+    #Input-Consult-btn{
+        width: 80%;
+        position: relative;
+        left: 7%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .form-Consult{
+        width: 60%;
+        height: 80vh;
+        position: relative;
+        left: 20%;
+        top: 2vh;
+    }
+    .Title-Consult{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        height: 7vh;
+    }
+    .Title-ConsultPage{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 22px;
+    }
+    .Logo-P3{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 25px;
+        top: 3.6vh;
+        color: rgb(194, 37, 37);
+    }
+    .Logo-P4{
+        position: relative;
+        font-family: 'Monda';
+        font-size: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .Subbmit{
+        position: relative;
+        top: 42vh;
+        left: 10%;
+        width: 80%;
+        height: 7vh;
+    }
+    #Input-Consult{
+        font-size: 12px;
+    }
+    #Input-Consult-btn{
+        width: 80%;
+        position: relative;
+        left: 7%;
+    }
+}

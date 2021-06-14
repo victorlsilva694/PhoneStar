@@ -1,0 +1,11 @@
+.Mail-Response-Form{
+    position: relative;
+    width: 80%;
+    top: 2vh;
+    left: 10%;
+    height: 80vh;
+}
+.Title-Response{
+    font-size: 25px;
+    text-align: center;
+}
